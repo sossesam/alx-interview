@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-This modules finds all solutions for N queens problem
+0. Pascal's Triangle
 """
 
 
