@@ -2,10 +2,13 @@
 """
  0-main
 """
+
+
 def pascal_triangle(n):
     """
     0-main
     """
+
     column = []
     if n == 0:
         return [[]]
@@ -19,12 +22,11 @@ def pascal_triangle(n):
                 row.append(1)
                 column.append(row)
                 continue
-            for x in column[i -1]:
+            for x in column[i - 1]:
                 num = x + last_num
                 last_num = x
-                row.append(num)      
-                    
+                row.append(num)
+
             row.append(last_num)
             column.append(row)
         return column
-
