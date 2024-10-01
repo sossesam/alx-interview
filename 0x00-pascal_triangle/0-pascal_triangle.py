@@ -11,8 +11,8 @@ def pascal_triangle(n):
     using recursion
     """
     column = []
-    if n == 0:
-        return []
+    if n <= 0:
+        return [[]]
     else:
         for i in range(n):
 
