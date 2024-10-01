@@ -1,14 +1,15 @@
 #!/usr/bin/python3
+
 """
- 0-main
+This modules finds all solutions for N queens problem
 """
 
 
 def pascal_triangle(n):
     """
-    0-main
+    Class defined as Queen to solve nQueens problem
+    using recursion
     """
-
     column = []
     if n == 0:
         return [[]]
