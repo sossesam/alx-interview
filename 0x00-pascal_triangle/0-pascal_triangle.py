@@ -7,8 +7,7 @@
 
 def pascal_triangle(n):
     """
-    Class defined as Queen to solve nQueens problem
-    using recursion
+    
     """
     column = []
     if n <= 0:
