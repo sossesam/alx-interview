@@ -47,21 +47,6 @@ def canUnlockAll(boxes):
 
     return all(opened)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 """def create_boxes(array):
     all_boxes = {}
     count = 0
@@ -82,11 +67,3 @@ def canUnlockAll(boxes):
 def canUnlockAll(boxes):
     new_box =create_boxes(boxes)"""
     
-    
-
-
-
-    
-    
-
-
